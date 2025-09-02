@@ -1,0 +1,1 @@
+<template><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 13H19V11H13H5V13H13Z"/></svg></template>

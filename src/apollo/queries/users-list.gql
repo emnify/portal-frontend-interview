@@ -1,0 +1,21 @@
+query usersList(
+  $per_page: Int
+  $page: Int
+  $filter: UserQueryObjectFilter!
+  $sorting: [UserQueryObjectSort!]!
+) {
+  users(per_page: $per_page, page: $page, filter: $filter, sorting: $sorting) {
+    items {
+      id
+      name
+      username
+      mfa_active
+      created
+    }
+    meta {
+      count
+      per_page
+      pages
+    }
+  }
+}

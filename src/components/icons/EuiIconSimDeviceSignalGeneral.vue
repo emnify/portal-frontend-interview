@@ -1,0 +1,1 @@
+<template><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 21H6V18H3V21ZM8 21H11V14H8V21ZM13 21H16V9H13V21ZM18 21H21V3H18V21Z"/></svg></template>

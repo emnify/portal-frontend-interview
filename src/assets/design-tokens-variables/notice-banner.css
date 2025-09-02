@@ -1,0 +1,22 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.notice-banner {
+  --eui-comp-notice-banner-container-color: #ffffff;
+  --eui-comp-notice-banner-container-padding-default-vertical: 24px;
+  --eui-comp-notice-banner-container-padding-default-horizontal: 32px;
+  --eui-comp-notice-banner-container-padding-default-between-slots: 24px;
+  --eui-comp-notice-banner-container-padding-default-right-closeable: 24px;
+  --eui-comp-notice-banner-container-padding-mobile-vertical: 24px;
+  --eui-comp-notice-banner-container-padding-mobile-horizontal: 32px;
+  --eui-comp-notice-banner-container-padding-mobile-between-slots: 24px;
+  --eui-comp-notice-banner-container-border-radius: 8px;
+  --eui-comp-notice-banner-container-border-color: #CDCDCD;
+  --eui-comp-notice-banner-leading-icon-color: #3708B2;
+  --eui-comp-notice-banner-leading-icon-border-color: #CDCDCD;
+  --eui-comp-notice-banner-leading-icon-border-radius: 8px;
+  --eui-comp-notice-banner-message-color: #000000;
+  --eui-comp-notice-banner-headline-color: #000000;
+}

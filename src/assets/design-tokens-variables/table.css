@@ -1,0 +1,30 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.table {
+  --eui-comp-table-border-dark: #CDCDCD;
+  --eui-comp-table-border-light: #e3e3e3;
+  --eui-comp-table-header-text-color: #5B5B5B;
+  --eui-comp-table-header-background: #f5f5f5;
+  --eui-comp-table-header-hover-background: #e3e3e3;
+  --eui-comp-table-header-height: 44px;
+  --eui-comp-table-row-background: #ffffff;
+  --eui-comp-table-row-hover-background: #f5f5f5;
+  --eui-comp-table-row-hover-border-color: #CDCDCD;
+  --eui-comp-table-row-selected-background: #f5f5f5;
+  --eui-comp-table-row-selected-border-color: #CDCDCD;
+  --eui-comp-table-row-focus-border-color: #4377cd;
+  --eui-comp-table-row-height-compact: 48px;
+  --eui-comp-table-row-height-default: 52px;
+  --eui-comp-table-row-height-large: 64px;
+  --eui-comp-table-cell-text-color: #000000;
+  --eui-comp-table-cell-text-color-subdued: #5B5B5B;
+  --eui-comp-table-cell-padding-vertical: 8px;
+  --eui-comp-table-cell-padding-horizontal-md: 24px;
+  --eui-comp-table-cell-padding-horizontal-sm: 16px;
+  --eui-comp-table-container-border-radius: 4px;
+  --eui-comp-table-sort-icon-inactive: #CDCDCD;
+  --eui-comp-table-sort-icon-active: #000000;
+}

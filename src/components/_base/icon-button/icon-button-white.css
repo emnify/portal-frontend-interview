@@ -1,0 +1,39 @@
+.icon-button--view-white {
+  padding: var(--eui-comp-icon-button-white-container-padding-vertical)
+    var(--eui-comp-icon-button-white-container-padding-horizontal);
+  border-radius: var(--eui-comp-icon-button-white-container-border-border-radius);
+
+  &.icon-button--state-hovered,
+  &:hover {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-white-opacity-hovered);
+    }
+  }
+
+  &:focus-visible {
+    outline-offset: var(--eui-comp-icon-button-white-container-outline-offset);
+    outline: var(--eui-comp-icon-button-white-container-outline-color) solid
+      var(--eui-comp-icon-button-white-container-outline-width);
+  }
+
+  &.icon-button--state-active,
+  &:active {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-white-opacity-active);
+    }
+  }
+
+  &.icon-button[disabled],
+  &.icon-button--state-disabled {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-white-opacity-disabled);
+    }
+  }
+
+  .icon-button__icon {
+    width: var(--eui-comp-icon-button-white-icon-size);
+    min-width: var(--eui-comp-icon-button-white-icon-size);
+    height: var(--eui-comp-icon-button-white-icon-size);
+    fill: var(--eui-comp-icon-button-white-icon-color-default);
+  }
+}

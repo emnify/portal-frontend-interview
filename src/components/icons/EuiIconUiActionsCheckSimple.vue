@@ -1,0 +1,1 @@
+<template><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20.5 6.41-12 12-5.5-5.5 1.41-1.41 4.09 4.08L19.09 5l1.41 1.41Z"/></svg></template>

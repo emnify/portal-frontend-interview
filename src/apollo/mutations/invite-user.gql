@@ -1,0 +1,17 @@
+mutation inviteUser(
+  $name: String
+  $username: String!
+  $organisation: IdInput
+  $roles: [IdInput!]
+) {
+  inviteUser(
+    inviteUserInput: {
+      name: $name
+      username: $username
+      organisation: $organisation
+      roles: $roles
+    }
+  ) {
+    id
+  }
+}

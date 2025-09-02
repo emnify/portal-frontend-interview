@@ -1,0 +1,50 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.switch {
+  --eui-comp-switch-container-color-on-primary-default: #3708B2;
+  --eui-comp-switch-container-color-on-primary-hovered: #5f39c1;
+  --eui-comp-switch-container-color-on-primary-focused: #3708B2;
+  --eui-comp-switch-container-color-on-disabled: #CDCDCD;
+  --eui-comp-switch-container-color-on-secondary-default: #33b147;
+  --eui-comp-switch-container-color-on-secondary-hovered: #5cc16c;
+  --eui-comp-switch-container-color-on-secondary-focused: #33b147;
+  --eui-comp-switch-container-color-on-tertiary-default: #4377cd;
+  --eui-comp-switch-container-color-on-tertiary-hovered: #6992d7;
+  --eui-comp-switch-container-color-on-tertiary-focused: #4377cd;
+  --eui-comp-switch-container-color-off-default: transparent;
+  --eui-comp-switch-container-border-border-radius: 50px;
+  --eui-comp-switch-container-border-on-primary-default: #3708B2;
+  --eui-comp-switch-container-border-on-primary-hovered: #5f39c1;
+  --eui-comp-switch-container-border-on-primary-focused: #3708B2;
+  --eui-comp-switch-container-border-on-disabled: #CDCDCD;
+  --eui-comp-switch-container-border-on-secondary-default: #33b147;
+  --eui-comp-switch-container-border-on-secondary-hovered: #5cc16c;
+  --eui-comp-switch-container-border-on-secondary-focused: #33b147;
+  --eui-comp-switch-container-border-on-tertiary-default: #4377cd;
+  --eui-comp-switch-container-border-on-tertiary-hovered: #6992d7;
+  --eui-comp-switch-container-border-on-tertiary-focused: #4377cd;
+  --eui-comp-switch-container-border-off-default: #CDCDCD;
+  --eui-comp-switch-container-border-off-hovered: #727272;
+  --eui-comp-switch-container-border-off-focused: #CDCDCD;
+  --eui-comp-switch-container-border-off-disabled: #CDCDCD;
+  --eui-comp-switch-container-outline-color: #4377cd;
+  --eui-comp-switch-container-outline-width: 2px;
+  --eui-comp-switch-container-outline-offset: 2px;
+  --eui-comp-switch-container-height: 28px;
+  --eui-comp-switch-container-width: 48px;
+  --eui-comp-switch-container-padding-between: 12px;
+  --eui-comp-switch-thumb-color-on-default: #ffffff;
+  --eui-comp-switch-thumb-color-on-disabled: #727272;
+  --eui-comp-switch-thumb-color-off-default: #CDCDCD;
+  --eui-comp-switch-thumb-color-off-hovered: #727272;
+  --eui-comp-switch-thumb-color-off-focused: #CDCDCD;
+  --eui-comp-switch-thumb-color-off-disabled: #CDCDCD;
+  --eui-comp-switch-thumb-border-border-radius: 50px;
+  --eui-comp-switch-thumb-size-on: 20px;
+  --eui-comp-switch-thumb-size-off: 16px;
+  --eui-comp-switch-label-text-color-default: #000000;
+  --eui-comp-switch-label-text-color-disabled: #CDCDCD;
+}

@@ -1,0 +1,16 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.progress-bar {
+  --eui-comp-progress-bar-indicator-color-on-light: #3708B2;
+  --eui-comp-progress-bar-indicator-color-on-dark: #DACEF9;
+  --eui-comp-progress-bar-indicator-color-success: #33b147;
+  --eui-comp-progress-bar-indicator-color-failure: #ff5757;
+  --eui-comp-progress-bar-track-color-on-light: #e3e3e3;
+  --eui-comp-progress-bar-track-color-on-dark: #5B5B5B;
+  --eui-comp-progress-bar-container-border-radius: 4px;
+  --eui-comp-progress-bar-container-height-small: 8px;
+  --eui-comp-progress-bar-container-height-medium: 16px;
+}

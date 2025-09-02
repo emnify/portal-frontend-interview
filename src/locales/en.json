@@ -1,0 +1,46 @@
+{
+  "auth": {
+    "signIn": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "signingIn": "Signing In...",
+    "signInFailed": "Sign in failed",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "instructions": "Instructions",
+    "signOut": "Sign Out"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "refresh": "Refresh"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to the Portal"
+  },
+  "users": {
+    "title": "Users",
+    "userList": "User List",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "noUsers": "No users found"
+  }
+}

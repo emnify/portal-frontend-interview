@@ -1,0 +1,29 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.radio-button {
+  --eui-comp-radio-button-container-border-border-radius: 50px;
+  --eui-comp-radio-button-container-border-selected-default: #3708B2;
+  --eui-comp-radio-button-container-border-selected-hovered: #5f39c1;
+  --eui-comp-radio-button-container-border-selected-focused: #3708B2;
+  --eui-comp-radio-button-container-border-selected-disabled: #CDCDCD;
+  --eui-comp-radio-button-container-border-unselected-default: #CDCDCD;
+  --eui-comp-radio-button-container-border-unselected-hovered: #727272;
+  --eui-comp-radio-button-container-border-unselected-focused: #CDCDCD;
+  --eui-comp-radio-button-container-border-unselected-disabled: #CDCDCD;
+  --eui-comp-radio-button-container-border-width: 2px;
+  --eui-comp-radio-button-container-outline-color: #4377cd;
+  --eui-comp-radio-button-container-outline-width: 2px;
+  --eui-comp-radio-button-container-outline-offset: 2px;
+  --eui-comp-radio-button-container-size: 20px;
+  --eui-comp-radio-button-container-padding-between: 12px;
+  --eui-comp-radio-button-thumb-color-selected-default: #3708B2;
+  --eui-comp-radio-button-thumb-color-selected-hovered: #5f39c1;
+  --eui-comp-radio-button-thumb-color-selected-focused: #3708B2;
+  --eui-comp-radio-button-thumb-color-selected-disabled: #CDCDCD;
+  --eui-comp-radio-button-thumb-border-border-radius: 50px;
+  --eui-comp-radio-button-label-text-color-default: #000000;
+  --eui-comp-radio-button-label-text-color-disabled: #CDCDCD;
+}

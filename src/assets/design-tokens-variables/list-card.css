@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.list-card {
+  --eui-comp-list-card-container-color-white: #ffffff;
+  --eui-comp-list-card-container-padding-left: 16px;
+  --eui-comp-list-card-container-padding-right: 8px;
+  --eui-comp-list-card-container-padding-vertical: 12px;
+  --eui-comp-list-card-container-padding-between: 8px;
+  --eui-comp-list-card-container-padding-between-mobile-section: 12px;
+  --eui-comp-list-card-container-border-color: #CDCDCD;
+  --eui-comp-list-card-container-border-radius: 8px;
+  --eui-comp-list-card-container-border-width: 1px;
+  --eui-comp-list-card-container-outline-color: #4377cd;
+  --eui-comp-list-card-container-outline-width: 2px;
+  --eui-comp-list-card-container-outline-offset: 2px;
+  --eui-comp-list-card-title-color-black: #000000;
+}

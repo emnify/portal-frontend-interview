@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.toolbar {
+  --eui-comp-toolbar-container-color-black: #000000;
+  --eui-comp-toolbar-container-padding-horizontal: 16px;
+  --eui-comp-toolbar-container-padding-vertical: 8px;
+  --eui-comp-toolbar-container-padding-between: 16px;
+  --eui-comp-toolbar-container-padding-between-trailing: 40px;
+  --eui-comp-toolbar-container-padding-between-mobile: 8px;
+  --eui-comp-toolbar-container-padding-between-leading-mobile: 0;
+  --eui-comp-toolbar-container-border-radius: 8px;
+  --eui-comp-toolbar-label-text-color-white: #ffffff;
+  --eui-comp-toolbar-divider-color-white: #ffffff;
+  --eui-comp-toolbar-divider-size-width: 1px;
+  --eui-comp-toolbar-divider-size-height: 16px;
+  --eui-comp-toolbar-position-bottom: 24px;
+}

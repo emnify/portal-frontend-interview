@@ -1,0 +1,323 @@
+.button--view-secondary-white {
+  color: var(--eui-comp-secondary-white-button-text-color-default);
+  font-size: var(--eui-comp-secondary-white-button-text-font-font-size);
+  font-weight: var(--eui-comp-secondary-white-button-text-font-font-weight);
+  line-height: var(--eui-comp-secondary-white-button-text-font-line-height);
+  letter-spacing: var(--eui-comp-secondary-white-button-text-font-letter-spacing);
+  background-color: transparent;
+  fill: var(--eui-comp-secondary-white-button-icon-color-default);
+  border-radius: var(--eui-comp-secondary-white-button-container-border-border-radius);
+  text-decoration: var(--eui-comp-secondary-white-button-text-font-text-decoration);
+  border-color: var(--eui-comp-secondary-white-button-container-border-default);
+  border-style: solid;
+
+  &.button--state-hovered,
+  &:hover {
+    opacity: var(--eui-comp-secondary-white-button-opacity-hovered);
+  }
+
+  &:focus-visible {
+    outline-offset: var(--eui-comp-secondary-white-button-container-outline-offset);
+    outline: var(--eui-comp-secondary-white-button-container-outline-color) solid
+      var(--eui-comp-secondary-white-button-container-outline-width);
+  }
+
+  &.button--state-active,
+  &:active {
+    opacity: var(--eui-comp-secondary-white-button-opacity-active);
+  }
+
+  &.button[disabled],
+  &.button--state-disabled {
+    opacity: var(--eui-comp-secondary-white-button-opacity-disabled);
+  }
+
+  .button__icon {
+    width: var(--eui-comp-secondary-white-button-icon-size);
+    height: var(--eui-comp-secondary-white-button-icon-size);
+  }
+
+  .button__loader {
+    border-color: var(--eui-comp-secondary-white-button-spinner-color-background);
+    border-left-color: var(--eui-comp-secondary-white-button-spinner-color-spin);
+  }
+
+  &.button--size-large {
+    border-width: var(--eui-comp-secondary-white-button-container-border-large-width);
+  }
+
+  &.button--size-large-label-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-text-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-text-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      );
+  }
+
+  &.button--size-large-icon-leading {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-leading-right) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-leading-left) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      );
+
+    .button__icon {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-large-icon-leading-between
+      );
+    }
+  }
+
+  &.button--size-large-icon-trailing {
+    flex-direction: row-reverse;
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-trailing-right) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-trailing-left) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      );
+
+    .button__label {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-large-icon-trailing-between
+      );
+    }
+  }
+
+  &.button--size-large-icon-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-large-icon-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-large-width)
+      );
+  }
+
+  &.button--size-medium {
+    border-width: var(--eui-comp-secondary-white-button-container-border-medium-width);
+  }
+
+  &.button--size-medium-label-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-text-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-text-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      );
+  }
+
+  &.button--size-medium-icon-leading {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-leading-right) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-leading-left) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      );
+
+    .button__icon {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-medium-icon-leading-between
+      );
+    }
+  }
+
+  &.button--size-medium-icon-trailing {
+    flex-direction: row-reverse;
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-trailing-right) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-trailing-left) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      );
+
+    .button__label {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-medium-icon-trailing-between
+      );
+    }
+  }
+
+  &.button--size-medium-icon-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-medium-icon-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-medium-width)
+      );
+  }
+
+  &.button--size-small {
+    border-width: var(--eui-comp-secondary-white-button-container-border-small-width);
+  }
+
+  &.button--size-small-label-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-text-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-text-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-text-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      );
+  }
+
+  &.button--size-small-icon-leading {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-leading-right) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-leading-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-leading-left) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      );
+
+    .button__icon {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-small-icon-leading-between
+      );
+    }
+  }
+
+  &.button--size-small-icon-trailing {
+    flex-direction: row-reverse;
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-trailing-right) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-trailing-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-trailing-left) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      );
+
+    .button__label {
+      margin-right: var(
+        --eui-comp-secondary-white-button-container-padding-small-icon-trailing-between
+      );
+    }
+  }
+
+  &.button--size-small-icon-only {
+    padding: calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-only-right) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-only-vertical) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      )
+      calc(
+        var(--eui-comp-secondary-white-button-container-padding-small-icon-only-left) -
+          var(--eui-comp-secondary-white-button-container-border-small-width)
+      );
+  }
+}

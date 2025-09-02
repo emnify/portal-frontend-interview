@@ -1,0 +1,221 @@
+@import '@/assets/styles/design-tokens-variables/input.css';
+
+.input {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.input__field {
+  width: 100%;
+  padding: var(--eui-comp-input-container-padding-large-vertical)
+    var(--eui-comp-input-container-padding-large-right)
+    var(--eui-comp-input-container-padding-large-vertical)
+    var(--eui-comp-input-container-padding-large-left);
+  color: var(--eui-comp-input-input-text-color-default);
+  font-family: var(--eui-sys-font-family-standard);
+  font-size: var(--eui-comp-input-input-text-font-font-size);
+  font-weight: var(--eui-comp-input-input-text-font-font-weight);
+  line-height: var(--eui-comp-input-input-text-font-line-height);
+  letter-spacing: var(--eui-comp-input-input-text-font-letter-spacing);
+  text-decoration: var(--eui-comp-input-input-text-font-text-decoration);
+  background-color: var(--eui-comp-input-label-text-background-on-surface-01);
+  border: var(--eui-comp-input-container-border-width) solid
+    var(--eui-comp-input-container-border-default);
+  border-radius: var(--eui-comp-input-container-border-border-radius);
+  outline: none;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: transparent;
+    transition: color 0.1s ease-out;
+    transition-delay: 0.1s;
+  }
+
+  &:hover {
+    border-color: var(--eui-comp-input-container-border-hovered);
+  }
+
+  &:focus {
+    &:not([readonly]) {
+      border-color: var(--eui-comp-input-container-border-focused);
+
+      &::placeholder {
+        color: var(--eui-comp-input-placeholder-text-color-default);
+      }
+
+      & ~ .input__label {
+        top: -8px;
+        left: var(--eui-comp-input-container-padding-large-left);
+        margin-left: calc(-1 * var(--eui-comp-input-label-text-padding-large-left));
+        padding: 0 var(--eui-comp-input-label-text-padding-large-right) 0
+          var(--eui-comp-input-label-text-padding-large-left);
+        font-size: var(--eui-comp-input-label-text-filled-font-font-size);
+        font-weight: var(--eui-comp-input-label-text-filled-font-font-weight);
+        line-height: var(--eui-comp-input-label-text-filled-font-line-height);
+        letter-spacing: var(--eui-comp-input-label-text-filled-font-letter-spacing);
+        text-decoration: var(--eui-comp-input-label-text-filled-font-text-decoration);
+        background-color: var(--eui-comp-input-label-text-background-on-surface-01);
+      }
+    }
+  }
+
+  &.input__field--state-filled {
+    & ~ .input__label {
+      top: -8px;
+      left: var(--eui-comp-input-container-padding-large-left);
+      margin-left: calc(-1 * var(--eui-comp-input-label-text-padding-large-left));
+      padding: 0 var(--eui-comp-input-label-text-padding-large-right) 0
+        var(--eui-comp-input-label-text-padding-large-left);
+      font-size: var(--eui-comp-input-label-text-filled-font-font-size);
+      font-weight: var(--eui-comp-input-label-text-filled-font-font-weight);
+      line-height: var(--eui-comp-input-label-text-filled-font-line-height);
+      letter-spacing: var(--eui-comp-input-label-text-filled-font-letter-spacing);
+      text-decoration: var(--eui-comp-input-label-text-filled-font-text-decoration);
+      background-color: var(--eui-comp-input-label-text-background-on-surface-01);
+    }
+  }
+
+  &:-internal-autofill-selected {
+    background-color: var(--eui-comp-input-label-text-background-on-surface-01);
+  }
+
+  &:-webkit-autofill {
+    box-shadow: 0 0 0 30px var(--eui-comp-input-label-text-background-on-surface-01) inset !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 30px var(--eui-comp-input-label-text-background-on-surface-01) inset !important;
+    }
+
+    & ~ .input__label {
+      top: -8px;
+      left: var(--eui-comp-input-container-padding-large-left);
+      margin-left: calc(-1 * var(--eui-comp-input-label-text-padding-large-left));
+      padding: 0 var(--eui-comp-input-label-text-padding-large-right) 0
+        var(--eui-comp-input-label-text-padding-large-left);
+      font-size: var(--eui-comp-input-label-text-filled-font-font-size);
+      font-weight: var(--eui-comp-input-label-text-filled-font-font-weight);
+      line-height: var(--eui-comp-input-label-text-filled-font-line-height);
+      letter-spacing: var(--eui-comp-input-label-text-filled-font-letter-spacing);
+      text-decoration: var(--eui-comp-input-label-text-filled-font-text-decoration);
+      background-color: var(--eui-comp-input-label-text-background-on-surface-01);
+    }
+  }
+
+  &::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+
+  &::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+}
+
+.input__field--on-dark-background {
+  background-color: var(--eui-comp-input-label-text-background-on-surface-02);
+
+  &:-internal-autofill-selected {
+    background-color: var(--eui-comp-input-label-text-background-on-surface-02);
+  }
+
+  &:-webkit-autofill {
+    box-shadow: 0 0 0 30px var(--eui-comp-input-label-text-background-on-surface-02) inset !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 30px var(--eui-comp-input-label-text-background-on-surface-02) inset !important;
+    }
+  }
+
+  &.input__field--state-filled,
+  &:-webkit-autofill,
+  &:focus {
+    ~ .input__label {
+      background-color: var(--eui-comp-input-label-text-background-on-surface-02);
+    }
+
+    &:not([readonly]) {
+      ~ .input__label {
+        background-color: var(--eui-comp-input-label-text-background-on-surface-02);
+      }
+    }
+  }
+}
+
+.input__field--icon-trailing {
+  padding-right: calc(
+    var(--eui-comp-input-container-padding-large-right) + var(--eui-comp-input-icon-size) +
+      var(--eui-comp-input-container-padding-large-between)
+  );
+}
+
+.input__field--state-error {
+  border-color: var(--eui-comp-input-container-border-error);
+
+  &:focus:not([readonly]) {
+    border-color: var(--eui-comp-input-container-border-error);
+  }
+
+  & ~ .input__label {
+    color: var(--eui-comp-input-label-text-color-error);
+  }
+}
+
+.input__field--state-disabled,
+.input__field[disabled] {
+  color: var(--eui-comp-input-input-text-color-disabled);
+  border-color: var(--eui-comp-input-container-border-disabled);
+  cursor: not-allowed;
+
+  &:hover {
+    border-color: var(--eui-comp-input-container-border-disabled);
+  }
+
+  & ~ .input__icon {
+    fill: var(--eui-comp-input-label-text-color-disabled);
+  }
+
+  & ~ .input__label {
+    color: var(--eui-comp-input-label-text-color-disabled);
+  }
+}
+
+.input__label {
+  position: absolute;
+  top: calc(
+    var(--eui-comp-input-container-padding-large-vertical) +
+      var(--eui-comp-input-container-border-width)
+  );
+  left: calc(
+    var(--eui-comp-input-container-padding-large-left) +
+      var(--eui-comp-input-container-border-width)
+  );
+  max-width: 80%;
+  color: var(--eui-comp-input-label-text-color-default);
+  font-size: var(--eui-comp-input-label-text-empty-font-font-size);
+  font-weight: var(--eui-comp-input-label-text-empty-font-font-weight);
+  line-height: var(--eui-comp-input-label-text-empty-font-line-height);
+  letter-spacing: var(--eui-comp-input-label-text-empty-font-letter-spacing);
+  text-decoration: var(--eui-comp-input-label-text-empty-font-text-decoration);
+  transition:
+    font-size,
+    top 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+
+  @mixin text-ellipsis;
+}
+
+.input__icon {
+  position: absolute;
+  top: var(--eui-comp-input-icon-padding-large-vertical);
+  right: var(--eui-comp-input-icon-padding-large-right);
+  width: var(--eui-comp-input-icon-size);
+  height: var(--eui-comp-input-icon-size);
+  fill: var(--eui-comp-input-icon-color-default);
+}

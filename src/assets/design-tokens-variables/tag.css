@@ -1,0 +1,23 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.tag {
+  --eui-comp-tag-color-grey: #CDCDCD;
+  --eui-comp-tag-color-pink: #EE66AC;
+  --eui-comp-tag-color-purple: #BE95FF;
+  --eui-comp-tag-color-blue: #33B1FF;
+  --eui-comp-tag-color-turquoise: #08BDBA;
+  --eui-comp-tag-color-green: #D4EA59;
+  --eui-comp-tag-color-yellow: #FDDA72;
+  --eui-comp-tag-color-orange: #F59033;
+  --eui-comp-tag-color-red: #FF7979;
+  --eui-comp-tag-container-border-radius: 4px;
+  --eui-comp-tag-container-height-compact: 20px;
+  --eui-comp-tag-container-height-default: 24px;
+  --eui-comp-tag-container-padding-between-trailing: 2px;
+  --eui-comp-tag-container-padding-between: 4px;
+  --eui-comp-tag-container-padding-horizontal: 8px;
+  --eui-comp-tag-leading-slot-size-max: 20px;
+}

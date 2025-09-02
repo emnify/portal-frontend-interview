@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.banner {
+  --eui-comp-banner-container-color-info: #4377cd;
+  --eui-comp-banner-container-color-error: #ff5757;
+  --eui-comp-banner-container-color-warning: #f59033;
+  --eui-comp-banner-container-color-success: #33b147;
+  --eui-comp-banner-container-padding-default-vertical: 12px;
+  --eui-comp-banner-container-padding-default-horizontal: 24px;
+  --eui-comp-banner-container-padding-default-between-leading: 12px;
+  --eui-comp-banner-container-padding-default-between-action: 24px;
+  --eui-comp-banner-container-padding-mobile-vertical: 16px;
+  --eui-comp-banner-container-padding-mobile-left: 12px;
+  --eui-comp-banner-container-padding-mobile-right-closable: 12px;
+  --eui-comp-banner-container-padding-mobile-right: 8px;
+  --eui-comp-banner-container-padding-mobile-between-leading: 12px;
+  --eui-comp-banner-container-padding-mobile-between-action: 12px;
+  --eui-comp-banner-leading-icon-color: #ffffff;
+  --eui-comp-banner-message-color: #ffffff;
+  --eui-comp-banner-message-max-width-default: 600px;
+  --eui-comp-banner-close-button-size-default-width: 48px;
+}

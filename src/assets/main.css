@@ -1,0 +1,25 @@
+@import "./design-tokens-variables/colors-light.css";
+@import "./design-tokens-variables/typescale.css";
+
+body, html, .app, #app {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: var(--eui-sys-layout-on-surface);
+  font-size: var(--eui-sys-typescale-body-text-large-font-size);
+  line-height: var(--eui-sys-typescale-body-text-large-line-height);
+  letter-spacing: var(--eui-sys-typescale-body-text-large-letter-spacing);
+  font-family: var(--eui-sys-font-family-standard), Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--eui-sys-layout-surface-01);
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

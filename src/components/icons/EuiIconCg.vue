@@ -1,0 +1,1 @@
+<template><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect id="icon-cg-green_area" width="3" height="2" fill="#009543"/><path id="icon-cg-yellow_area" d="M 0 2 L 2 0 h 1 v 2 z" fill="#FBDE4A"/><path id="icon-cg-red_area" d="M 3 0 v 2 h -2 z" fill="#DC241F"/></svg></template>

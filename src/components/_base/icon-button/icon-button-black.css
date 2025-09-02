@@ -1,0 +1,39 @@
+.icon-button--view-black {
+  padding: var(--eui-comp-icon-button-black-container-padding-vertical)
+    var(--eui-comp-icon-button-black-container-padding-horizontal);
+  border-radius: var(--eui-comp-icon-button-black-container-border-border-radius);
+
+  &.icon-button--state-hovered,
+  &:hover {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-black-opacity-hovered);
+    }
+  }
+
+  &:focus-visible {
+    outline-offset: var(--eui-comp-icon-button-black-container-outline-offset);
+    outline: var(--eui-comp-icon-button-black-container-outline-color) solid
+      var(--eui-comp-icon-button-black-container-outline-width);
+  }
+
+  &.icon-button--state-active,
+  &:active {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-black-opacity-active);
+    }
+  }
+
+  &.icon-button[disabled],
+  &.icon-button--state-disabled {
+    .icon-button__icon {
+      opacity: var(--eui-comp-icon-button-black-opacity-disabled);
+    }
+  }
+
+  .icon-button__icon {
+    width: var(--eui-comp-icon-button-black-icon-size);
+    min-width: var(--eui-comp-icon-button-black-icon-size);
+    height: var(--eui-comp-icon-button-black-icon-size);
+    fill: var(--eui-comp-icon-button-black-icon-color-default);
+  }
+}

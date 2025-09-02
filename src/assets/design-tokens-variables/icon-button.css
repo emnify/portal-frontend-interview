@@ -1,0 +1,29 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.icon-button {
+  --eui-comp-icon-button-white-container-outline-color: #4377cd;
+  --eui-comp-icon-button-white-container-outline-width: 2px;
+  --eui-comp-icon-button-white-container-outline-offset: 2px;
+  --eui-comp-icon-button-white-container-border-border-radius: 4px;
+  --eui-comp-icon-button-white-container-padding-horizontal: 2px;
+  --eui-comp-icon-button-white-container-padding-vertical: 2px;
+  --eui-comp-icon-button-white-icon-color-default: #ffffff;
+  --eui-comp-icon-button-white-icon-size: 16px;
+  --eui-comp-icon-button-white-opacity-hovered: 0.64;
+  --eui-comp-icon-button-white-opacity-active: 0.48;
+  --eui-comp-icon-button-white-opacity-disabled: 0.24;
+  --eui-comp-icon-button-black-container-outline-color: #4377cd;
+  --eui-comp-icon-button-black-container-outline-width: 2px;
+  --eui-comp-icon-button-black-container-outline-offset: 2px;
+  --eui-comp-icon-button-black-container-border-border-radius: 4px;
+  --eui-comp-icon-button-black-container-padding-horizontal: 2px;
+  --eui-comp-icon-button-black-container-padding-vertical: 2px;
+  --eui-comp-icon-button-black-icon-color-default: #000000;
+  --eui-comp-icon-button-black-icon-size: 16px;
+  --eui-comp-icon-button-black-opacity-hovered: 0.64;
+  --eui-comp-icon-button-black-opacity-active: 0.48;
+  --eui-comp-icon-button-black-opacity-disabled: 0.24;
+}

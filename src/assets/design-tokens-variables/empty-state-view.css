@@ -1,0 +1,23 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+.empty-state-view {
+  --eui-comp-empty-state-view-container-color-default: #f5f5f5;
+  --eui-comp-empty-state-view-container-border-width: 1px;
+  --eui-comp-empty-state-view-container-border-color-default: #CDCDCD;
+  --eui-comp-empty-state-view-container-border-radius: 8px;
+  --eui-comp-empty-state-view-container-padding-horizontal-small: 16px;
+  --eui-comp-empty-state-view-container-padding-horizontal-medium: 64px;
+  --eui-comp-empty-state-view-container-padding-horizontal-large: 128px;
+  --eui-comp-empty-state-view-container-padding-vertical: 64px;
+  --eui-comp-empty-state-view-container-padding-between-section: 24px;
+  --eui-comp-empty-state-view-container-padding-between-copy: 4px;
+  --eui-comp-empty-state-view-leading-icon-color-default: #ffffff;
+  --eui-comp-empty-state-view-leading-icon-size-default: 64px;
+  --eui-comp-empty-state-view-leading-icon-border-width: 1px;
+  --eui-comp-empty-state-view-leading-icon-border-color-default: #CDCDCD;
+  --eui-comp-empty-state-view-leading-icon-border-radius: 8px;
+  --eui-comp-empty-state-view-content-slot-size-max-width: 560px;
+}

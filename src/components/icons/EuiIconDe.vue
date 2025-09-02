@@ -1,0 +1,1 @@
+<template><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3"><desc>Flag of Germany</desc><rect id="icon-de-black_stripe" width="5" height="3" y="0" x="0" fill="#000"/><rect id="icon-de-red_stripe" width="5" height="2" y="1" x="0" fill="#D00"/><rect id="icon-de-gold_stripe" width="5" height="1" y="2" x="0" fill="#FFCE00"/></svg></template>

@@ -1,0 +1,21 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 29 Jul 2025 14:37:34 GMT
+ */
+
+:root {
+  --eui-sys-spacing-3x-small: 2px;
+  --eui-sys-spacing-2x-small: 4px;
+  --eui-sys-spacing-x-small: 8px;
+  --eui-sys-spacing-small: 12px;
+  --eui-sys-spacing-medium: 16px;
+  --eui-sys-spacing-large: 24px;
+  --eui-sys-spacing-x-large: 32px;
+  --eui-sys-spacing-2x-large: 40px;
+  --eui-sys-spacing-3x-large: 48px;
+  --eui-sys-spacing-4x-large: 64px;
+  --eui-sys-spacing-5x-large: 80px;
+  --eui-sys-spacing-6x-large: 96px;
+  --eui-sys-spacing-7x-large: 112px;
+  --eui-sys-spacing-8x-large: 128px;
+}
