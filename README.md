@@ -16,41 +16,23 @@ Implement a user management interface that displays users in a table format with
 
 Use the provided GraphQL query to fetch users:
 
-```graphql
-query usersList(
-  $per_page: Int
-  $page: Int
-  $filter: UserQueryObjectFilter!
-  $sorting: [UserQueryObjectSort!]!
-) {
-  users(per_page: $per_page, page: $page, filter: $filter, sorting: $sorting) {
-    items {
-      id
-      name
-      username
-      mfa_active
-      created
-    }
-    meta {
-      count
-      per_page
-      pages
-    }
-  }
-}
-```
-
-**Query Variables:**
+**Query Variables for user list and invitation:**
 ```javascript
 {
-  filter: { and: [], or: [] },
-  sorting: [],
-  page: 1,
-  per_page: 5
+    filter: { and: [], or: [] },
+    sorting: [],
+    page: 1,
+    per_page: 5
+},
+{
+    name,
+    username,
+    organisation: { id } , // get organisation id from user store  
+    roles: { id },
 }
 ```
 
-**Apollo Settings:**
+**Apollo Settings for each query:**
 ```javascript
 {
   fetchPolicy: 'no-cache'
@@ -85,42 +67,12 @@ Implement pagination functionality:
 - get organisation id for requrest from pinia authStore
 - mutation 
 
-```graphql
-useMutation(inviteUserQuery, () => ({
-  variables: {
-    name,
-    username,
-    organisation: { id } , // get organisation id from user store  
-    roles: { id },
-  },
-  refetchQueries: ['USER_LIST'],
-}))
-
-```
 
 ## Technical Requirements
 
 ### Apollo Composable Usage
 ```javascript
 import { useQuery } from '@vue/apollo-composable'
-```
-
-### Expected Component Structure
-```vue
-<script setup>
-// Apollo query implementation
-// Reactive variables for pagination
-// Computed properties for data transformation
-</script>
-
-<template>
-  <!-- Table with users -->
-  <!-- Pagination controls -->
-</template>
-
-<style scoped>
-/* Table styling with Grid/Flex layout */
-</style>
 ```
 
 ### Mock Data Structure
