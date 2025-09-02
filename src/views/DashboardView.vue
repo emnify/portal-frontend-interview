@@ -13,10 +13,4 @@ const { t } = useI18n();
   </div>
 </template>
 
-<style scoped>
-li {
-  margin-bottom: 5px;
-  margin-left: 15px;
-  list-style-type: disc;
-}
-</style>
+<style scoped></style>
