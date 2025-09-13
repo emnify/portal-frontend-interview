@@ -18,7 +18,7 @@
     "@apollo/client": "^3.14.0",
     "@vee-validate/yup": "^4.15.1",
     "@vue/apollo-composable": "^4.2.2",
-    "axios": "^1.11.0",
+    "axios": "^1.12.0",
     "bowser": "^2.12.1",
     "crypto-js": "^4.2.0",
     "fingerprintjs2": "^2.1.4",
