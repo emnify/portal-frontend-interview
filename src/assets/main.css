@@ -1,5 +1,7 @@
 @import "./design-tokens-variables/colors-light.css";
 @import "./design-tokens-variables/typescale.css";
+@import "./design-tokens-variables/button.css";
+@import "./design-tokens-variables/icon-button.css";
 
 body, html, .app, #app {
   height: 100%;
